@@ -1,0 +1,948 @@
+/* font-family: "Clicker Script", cursive; */
+/*  font-family: "Playfair Display", serif; */
+
+/* background: #FFFFFF;
+background: linear-gradient(20deg, rgba(255, 255, 255, 1) 0%, rgba(166, 131, 83, 1) 26%); */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+
+nav{
+    height: 100vh;
+    background-image: url(./images/landing.png);
+    background-size: cover;
+    background-position: center;
+}
+.nav-bar{
+    position: relative;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.nav-bar p{
+    font-family: "Clicker Script", cursive;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.nav-list ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+}
+.nav-list ul li a{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+}
+.nav-icon{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.nav-icon p{
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.nav-icon button{
+    font-family: "Playfair Display", serif;
+    background: none;
+    height: 48px;
+    width: 100px;
+    background-color: #F9C06A;
+    color: #1E1E1E;
+    font-size: 14px;
+    border: solid 1px #F9C06A;
+    border-radius: 24px;
+}
+.landing-left{
+    position: absolute;
+    top: 25%;
+    left: 93px;
+}
+.la-tit{
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.lan-name{
+    font-family: "Clicker Script", cursive;
+    font-size: 220px;
+    color: #FFFFFF;
+}
+.lan-para p{
+    line-height: 34px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.lan-button{
+    margin-top: 20px;
+}
+.lan-button button{
+    font-weight: bold;
+    background: none;
+    height: 48px;
+    width: 134px;
+    border-radius: 24px;
+    background-color: #F9C06A;
+    color: #1E1E1E;
+    border: solid 1px #F9C06A;
+}
+
+/* second page */
+.second-design{
+    position: relative;
+}
+.second-page{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.second-left{
+    height: 348px;
+    width: 585px;
+}
+.second-left span{
+    font-family: "Playfair Display", serif;
+    color: #603809;
+    font-size: 54px;
+    font-weight: bold;
+}
+.second-left p{
+    margin-top: 29px;
+    font-family: "Playfair Display", serif;
+    color: #707070;
+    font-size: 20px;
+    line-height: 34px;
+}
+.second-left button{
+    margin-top: 29px;
+    height: 48px;
+    width: 134px;
+    background-color: #F9C06A;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    border: solid 1px #F9C06A;
+    border-radius: 24px;
+}
+.second-right img{
+    height: 476px;
+    width: 600px;
+}
+.sec-design {
+    position: absolute;
+    top: 70%;
+}
+.sec-design img{ 
+    height: 272px;
+    width: 498px;
+}
+/* third page */
+.third-page{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.third-title span{
+    font-family: "Playfair Display", serif;
+    font-size: 54px;
+    font-weight: bold;
+    color: #603809;
+}
+.third-title p{
+    margin-top: 16px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    line-height: 34px;
+    color: #707070;
+}
+.third-box{
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.th-box1{
+    position: relative;
+    height: 370px;
+    width: 280px;
+    border: solid 1px #603809;
+    background-color: #FFF9F1;
+}
+.th-box1 img{
+    height: 222px;
+    width: 280px;
+}
+.box-content{
+    line-height: 30px;
+    text-align: center;
+}
+.box-content h3{
+    font-family: "Playfair Display", serif;
+    margin-top: 14px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #603809;
+}
+.box-content span{
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+.box-content p{
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    color: #F9C06A;
+}
+.box-button{
+    position: absolute;
+    bottom: -20px;
+    left: 30%;
+    text-align: center;
+}
+.box-button button{
+    font-family: "Playfair Display", serif;
+    background: none;
+    height: 48px;
+    width: 134px;
+    border-radius: 24px;
+    border: solid 1px #F9C06A;
+    background-color: #F9C06A;
+    color: #1E1E1E;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* four page */
+.four{
+    /* position: relative; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.fourth-page{
+    position: relative;
+}
+.four-design{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.four-title{
+    text-align: center;
+}
+
+.four-design img{
+    height: 261px;
+    width: 478px;
+}
+.four-title span{
+    font-family: "Playfair Display", serif;
+    color: #603809;
+    font-size: 54px;
+    font-weight: bold;
+}
+.four-title p{
+    margin-top: 16px;
+    font-family: "Playfair Display", serif;
+    color: #707070;
+    font-size: 20px;
+}
+
+.fourth-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.f-card1:first-child{
+    border: solid 1px #F9C06A;
+    background-color: #FFEED8;
+}
+.f-card1{
+    height: 284px;
+    width: 280px;
+    border: solid 1px #F9C06A;
+    background-color: #FFF9F1;
+}
+.f-card1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.f-card1 img{
+    height: 88px;
+    width: 88px;
+}
+.f-card-content{
+    margin-top: 25px;
+}
+.f-card-content span{
+    font-family: "Playfair Display", serif;
+    color: #603809;
+    font-size: 28px;
+    font-weight: bold;
+}
+.f-card-content p{
+    margin-top: 8px;
+    font-family: "Playfair Display", serif;
+    color: #707070;
+    font-size: 20px;
+}
+.four-bottom{
+    text-align: center;
+}
+.four-bottom span{
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    color: #707070;
+}
+.four-bottom p{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    color: #603809;
+}
+.four-bottom button{
+    margin-top: 24px;
+    height: 48px;
+    width: 134px;
+    background-color: #F9C06A;
+    border: solid 1px #F9C06A;
+    border-radius: 24px;
+    color: #1E1E1E;
+    font-size: 16px;
+}
+/* fifth page */
+
+.fifth-page{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fifth-layer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+    
+    background-image: url(./images/layer.png);
+    
+    background-position: center;
+    background-size: cover;
+}
+.fil-content span{
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 54px;
+    color: #FFFFFF;
+}
+.fil-content p{
+    margin-top: 22px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.fil-content button{
+     font-family: "Playfair Display", serif;
+    margin-top: 22px;
+    height: 48px;
+    width: 134px;
+    background-color: #F9C06A;
+    color: #1E1E1E;
+    font-weight: bold;
+    border-radius: 24px;
+    border: solid 1px #F9C06A;
+}
+.fil-img{
+    height: 457px;
+    width: 300px;
+}
+
+.beans{
+    position: absolute;
+    right: 0;
+    bottom: 70px;
+}
+/* sixth-page */
+
+.six{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.six-title{
+    text-align: center;
+}
+.six-title span{
+    font-family: "Playfair Display", serif;
+    font-size: 54px;
+    font-weight: bold;
+    color: #603809;
+}
+.six-title p{
+    margin-top: 16px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: #707070;
+}
+.rev-box{
+    position: relative;
+    margin-top: 45px;
+    height: 524px;
+    width: 980px;
+    background-color: #F9C06A6B;
+}
+.re-de1{
+    position: absolute;
+    right: 0;
+    top: 50px;  
+}
+.re-de{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.rev-box img{
+    padding: 40px;
+    float: left;
+}
+.rev-cont{
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+}
+.rev-cont span{
+    text-align: center;
+    width: 780px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #707070;
+    line-height: 36px;
+}
+.rev-cont h4{
+    margin-top: 28px;
+    color: #603809;
+    font-weight: bold;
+    font-size: 32px;
+}
+.rev-cont p{
+    line-height: 34px;
+    color: #707070;
+    font-size: 20px;
+}
+.review-img{
+    position: absolute;
+    top: 88%;
+    bottom: 0px;
+}
+.review-img img{
+    height: 112px;
+    width: 112px;
+    border-radius: 16px;
+}
+.rev-arrow{
+    position: absolute;
+    top: 40%;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9C06A;
+    height: 82px;
+    width: 82px;
+    border-radius: 16px;
+}
+.rev-arrow img{
+    height: 24px;
+    width: 24px;
+}
+/* media */
+@media(min-width: 300px) and (max-width: 780px){
+    nav{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/landing.png);
+    background-size: cover;
+    background-position: center;
+}
+.nav-bar{
+    position: relative;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.nav-list ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.nav-list ul li a{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+}
+.nav-icon{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.landing-left{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+}
+.la-tit{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.lan-name{
+    font-family: "Clicker Script", cursive;
+    font-size: 150px;
+    color: #FFFFFF;
+}
+.lan-para p{
+    line-height: 34px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.lan-button{
+    margin-top: 20px;
+}
+.lan-button button{
+    font-weight: bold;
+    background: none;
+    height: 48px;
+    width: 134px;
+    border-radius: 24px;
+    background-color: #F9C06A;
+    color: #1E1E1E;
+    border: solid 1px #F9C06A;
+}
+/* second page */
+.second-page{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.second-left{
+    padding: 10px;
+    height: auto;
+    width: 100%;
+}
+.second-right img{
+    height: 400px;
+    width: 100%;
+}
+.second-design{
+    position: relative;
+}
+.sec-design {
+    position: absolute;
+    top: 80%;
+}
+.sec-design img{ 
+    height: 272px;
+    width: 60%;
+}
+
+/* third page */
+.third-page{
+    padding: 10px;
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.third-title{
+    padding: 10px;
+}
+.third-title span{
+    width: 100%;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #603809;
+}
+.third-title p{
+    margin-top: 16px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    line-height: 34px;
+    color: #707070;
+}
+.third-box{
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+.th-box1{
+    position: relative;
+    height: 370px;
+    width: 90%;
+    border: solid 1px #603809;
+    background-color: #FFF9F1;
+    margin-bottom: 20px;
+}
+.th-box1 img{
+    height: 222px;
+    width: 100%;
+}
+.box-content{
+    line-height: 30px;
+    text-align: center;
+}
+.box-content h3{
+    font-family: "Playfair Display", serif;
+    margin-top: 14px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #603809;
+}
+.box-content span{
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+.box-content p{
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    color: #F9C06A;
+}
+.box-button{
+    position: absolute;
+    bottom: -20px;
+    left: 30%;
+    text-align: center;
+}
+.box-button button{
+    font-family: "Playfair Display", serif;
+    background: none;
+    height: 48px;
+    width: 134px;
+    border-radius: 24px;
+    border: solid 1px #F9C06A;
+    background-color: #F9C06A;
+    color: #1E1E1E;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* four page */
+.four{
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.fourth-page{
+    position: relative;
+}
+.four-design{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+}
+.four-title{
+    text-align: center;
+}
+
+.four-design img{
+    height: 200px;
+    width: 80%;
+}
+.four-title span{
+    font-family: "Playfair Display", serif;
+    color: #603809;
+    font-size: 54px;
+    font-weight: bold;
+}
+.four-title p{
+    padding: 20px 10px;
+    margin-top: 100px;
+    font-family: "Playfair Display", serif;
+    color: #707070;
+    font-size: 20px;
+}
+
+.fourth-card{
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.f-card1:first-child{
+    border: solid 1px #F9C06A;
+    background-color: #FFEED8;
+}
+.f-card1{
+    height: 284px;
+    width: 280px;
+    border: solid 1px #F9C06A;
+    background-color: #FFF9F1;
+}
+.f-card1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.f-card1 img{
+    height: 88px;
+    width: 88px;
+}
+.f-card-content{
+    margin-top: 25px;
+}
+.f-card-content span{
+    font-family: "Playfair Display", serif;
+    color: #603809;
+    font-size: 28px;
+    font-weight: bold;
+}
+.f-card-content p{
+    margin-top: 8px;
+    font-family: "Playfair Display", serif;
+    color: #707070;
+    font-size: 20px;
+}
+.four-bottom{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.four-bottom span{
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    color: #707070;
+}
+.four-bottom p{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    color: #603809;
+}
+.four-bottom button{
+    margin-top: 24px;
+    height: 48px;
+    width: 134px;
+    background-color: #F9C06A;
+    border: solid 1px #F9C06A;
+    border-radius: 24px;
+    color: #1E1E1E;
+    font-size: 16px;
+}
+/* fifth page */
+.fifth-page{
+    width: 100%;
+    /* position: relative; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fifth-layer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    
+    background-image: url(./images/layer.png);
+    
+    background-position: center;
+    background-size: cover;
+}
+.fil-content{
+    padding: 20px;
+}
+.fil-content span{
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.fil-content p{
+    margin-top: 22px;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.fil-content button{
+    margin-top: 22px;
+    height: 40px;
+    width: 100px;
+    background-color: #F9C06A;
+    color: #1E1E1E;
+    font-weight: bold;
+    border-radius: 24px;
+    border: solid 1px #F9C06A;
+}
+.fil-img{
+    height: 200px;
+    width: 50%;
+}
+.beans{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* sixth-page */
+
+.six{
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.six-title{
+    text-align: center;
+}
+.six-title span{
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #603809;
+}
+.six-title p{
+    margin-top: 200px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: #707070;
+}
+.rev-box{
+    position: relative;
+    margin-top: 45px;
+    height: auto;
+    width: 100%;
+    background-color: #F9C06A6B;
+}
+.re-de1{
+    position: absolute;
+    right: 0;
+    top: 50px;  
+}
+.re-de{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.rev-box img{
+    padding: 10px;
+    float: left;
+}
+.rev-cont{
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+}
+.rev-cont span{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #707070;
+    line-height: 36px;
+}
+.rev-cont h4{
+    margin-top: 28px;
+    color: #603809;
+    font-weight: bold;
+    font-size: 32px;
+}
+.rev-cont p{
+    padding-bottom: 40px;
+    line-height: 34px;
+    color: #707070;
+    font-size: 20px;
+}
+.review-img{
+    position: absolute;
+    top: 95%;
+    bottom: 0px;
+}
+.review-img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 16px;
+}
+.rev-arrow{
+    position: absolute;
+    top: 40%;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9C06A;
+    height: 82px;
+    width: 82px;
+    border-radius: 16px;
+}
+.rev-arrow img{
+    height: 24px;
+    width: 24px;
+}
+}
